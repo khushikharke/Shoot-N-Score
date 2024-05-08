@@ -1,6 +1,15 @@
 {
+  "name": "shoot-and-score",
+  "version": "1.0.0",
+  "description": "An application for shooting and scoring",
+  "main": "backend.js",
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.7.5"
-  }
+  },
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "author": "Khushi Khare",
+  "license": "MIT"
 }
